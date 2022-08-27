@@ -1,0 +1,10 @@
+require "adam.options"
+require "adam.keymaps"
+require "adam.plugins"
+require "adam.toggleterm"
+require "adam.cmp"
+require "adam.lsp"
+require "adam.telescope"
+
+vim.cmd "colorscheme challenger_deep"
+vim.cmd "set timeoutlen=1000"
